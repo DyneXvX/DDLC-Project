@@ -1152,11 +1152,11 @@ label StartingSearch:
                                                 mc "Hey Ryan, I found something that was supposed to go to you."
                                                 r "Really? And you brought it all the way here? Thanks, man."
                                                 "--You hand Ryan the note--"
-                                                    python:        
-                                                        try: 
-                                                            os.remove("Hole in Wall.txt")
-                                                        except:
-                                                            pass
+                                                python:        
+                                                    try: 
+                                                        os.remove("Hole in Wall.txt")
+                                                    except:
+                                                        pass
                                                 r "Oh..."
                                                 mc "You alright Ryan?"
                                                 r "Yeah, I guess you read it right?"
@@ -1179,11 +1179,11 @@ label StartingSearch:
                                                 r "Hey, if you do go, and she is there. Tell her I am sorry for not coming over myself."
                                                 mc "I promise I will tell you if she is ok."
                                                 r "Thanks. Here is her address, just a word of advice. Her dad really is an ass."
-                                                    python:        
-                                                        try: 
-                                                            os.remove("Hole in Wall.txt")
-                                                        except:
-                                                            pass
+                                                python:        
+                                                    try: 
+                                                        os.remove("Hole in Wall.txt")
+                                                    except:
+                                                        pass
                                                 mc "Thanks man"
                                                 scene black
                                                 with dissolve_scene_full
